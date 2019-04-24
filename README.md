@@ -15,7 +15,7 @@ Just another repository
 
 
 
-name="userid"></td>
+
 </tr>
 
 <tr>
@@ -34,20 +34,5 @@ name="userid"></td>
 
 </table>
 </form>
-<script language="javascript">
-function check(form)
-{
-
-if(form.userid.value == "Roseindia" && form.pwd.value == "Roseindia")
-{
-	return true;
-}
-else
-{
-	alert("Error Password or Username")
-	return false;
-}
-}
-</script>
 
 </body>
